@@ -34,7 +34,8 @@ void main() async {
   // Create a passphrase generator with your word list
   // The file is not bundled with the package but you can download it from the EFF website
   // or from the package repository.
-  final wordList = File('./eff-wordlist.json').readAsStringSync();
+  final jsonString = await File('./eff-wordlist.json').readAsString();
+  final wordList = (json.decode(jsonString) as List).cast<String>();
   final passphrase = Passphrase(wordList);
 
   // Generate a passphrase with 3 words
