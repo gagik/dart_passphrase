@@ -1,0 +1,14 @@
+name: passphrase
+description: Generate a cryptographically random passphrase from a given in-memory word list.
+version: 1.0.0
+repository: https://github.com/gagik/passphrase
+
+environment:
+  sdk: ^3.5.4
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
+
+dependencies:
+  collection: ^1.19.1
