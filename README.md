@@ -66,10 +66,6 @@ For more information about passphrase security and best practices, refer to:
 
 Contributions are welcome! Please feel free to open an issue or submit a Pull Request.
 
-## Disclaimer
-
-This package is provided as-is, without any warranty. Use at your own risk.
-
 ## License
 
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
